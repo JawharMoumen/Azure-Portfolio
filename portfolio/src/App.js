@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   const [activeSection, setActiveSection] = useState('about');
 
-  // ÄNDRA DESSA till din egen info!
+  // Egen info!
   const myInfo = {
     name: "Jawhar Moumen",
     title: "Full Stack Developer Student",
@@ -13,23 +13,26 @@ function App() {
     github: "https://github.com/JawharMoumen",
   };
 
-  // ÄNDRA DESSA till dina projekt!
+  // 
   const projects = [
     {
       title: "Azure Portfolio",
       description: "Ett React portfolio deployat i Azure med Static Web Apps och CI/CD",
       tech: ["React", "Azure", "GitHub Actions"],
-      github: "https://github.com/dittanvändarnamn/portfolio"
+      github: "https://github.com/JawharMoumen/Azure-Portfolio"
     },
+
+    /*
     {
-      title: "Projekt 2",
+      title: "Projekt ",
       description: "Beskriv ditt skolprojekt här",
       tech: ["Python", "Django"],
-      github: "https://github.com/dittanvändarnamn/projekt2"
+      github: "https://github.com/dittanvändarnamn/projekt"
     }
+      */
   ];
 
-  // ÄNDRA DESSA till dina skills!
+  // Mina skills!
   const skills = {
     "Frontend": ["React", "HTML", "CSS", "JavaScript"],
     "Backend": ["Java", "Node.js"],
@@ -118,7 +121,7 @@ function App() {
                   och lära mig nya teknologier. Just nu fokuserar jag på molnlösningar med Azure.
                 </p>
                 <p style={{ marginBottom: '1rem' }}>
-                  Min resa inom programmering började [SKRIV OM DIG SJÄLV HÄR] och sedan dess har jag 
+                  Min resa inom programmering började när jag fan ett litet intresse efter en serie som jag kollade på då ansökte jag till javautvecklare på STI och sedan dess har jag 
                   arbetat med både frontend och backend-teknologier.
                 </p>
                 <p>
