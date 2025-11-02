@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Github, Linkedin, Mail, Code, Database, Cloud, ExternalLink } from 'lucide-react';
+import { Github, Linkedin, Mail, Briefcase, User } from 'lucide-react';
 import './App.css';
 
 function App() {
